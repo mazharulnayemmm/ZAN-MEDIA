@@ -2,6 +2,7 @@ import heroBg from "@/assets/hero-bg.jpg";
 import { ChevronDown, Play } from "lucide-react";
 
 const Hero = () => {
+  const isMobile = window.innerWidth < 640;
   const scrollToPortfolio = () => {
     document.querySelector("#portfolio")?.scrollIntoView({ behavior: "smooth" });
   };
@@ -11,7 +12,8 @@ const Hero = () => {
     
     <section
       id="hero"
-      className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden"
+      className="relative flex flex-col items-center justify-center overflow-hidden"
+      style={{ paddingTop: isMobile ? '4rem' : '8rem', paddingBottom: isMobile ? '0rem' : '8rem' }}
     >
       {/* Background image with overlay */}
       <div
