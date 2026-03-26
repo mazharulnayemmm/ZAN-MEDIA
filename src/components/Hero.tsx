@@ -90,13 +90,13 @@ const Hero = () => {
       </div>
 
       {/* Scroll indicator */}
-      <button
+      {/* <button
         onClick={scrollToPortfolio}
         className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 text-muted-foreground hover:text-primary transition-colors animate-bounce"
         aria-label="Scroll down"
       >
         <ChevronDown className="w-8 h-8" />
-      </button>
+      </button> */}
     </section>
   );
 };
