@@ -47,15 +47,14 @@ const Contact = () => {
     <section id="contact" ref={sectionRef} className="py-24 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-14 fade-in">
-          <p className="font-display text-primary text-sm font-semibold tracking-widest uppercase mb-3">
+          {/* <p className="font-display text-primary text-sm font-semibold tracking-widest uppercase mb-3">
             Let's Collaborate
-          </p>
+          </p> */}
           <h2 className="font-display font-black text-4xl md:text-5xl text-foreground section-title">
-            Get in Touch
+            Ready to Grow Your Brand? Let’s Talk!
           </h2>
           <p className="font-body text-muted-foreground mt-5 max-w-xl mx-auto">
-            Ready to bring your vision to life? Send me a message and I'll get
-            back to you within 24 hours.
+           Reach out to our team and start your project today.
           </p>
         </div>
 
@@ -75,7 +74,7 @@ const Contact = () => {
                   Email Me
                 </p>
                 <p className="font-body text-muted-foreground text-sm">
-                 info.zanmedia@gmail.com
+                 nayemm0345@gmail.com
                 </p>
               </div>
             </a>

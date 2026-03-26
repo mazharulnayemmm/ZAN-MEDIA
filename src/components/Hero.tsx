@@ -48,7 +48,7 @@ const Hero = () => {
         </p>
 
         {/* Showreel embed — replace src with your YouTube showreel URL */}
-        <div className="mb-10 max-w-3xl mx-auto rounded-xl overflow-hidden border border-primary/30 shadow-glow-lg animate-float">
+        <div className="mb-10 max-w-3xl mx-auto rounded-xl overflow-hidden border border-primary/30 shadow-glow-lg ">
           <div className="video-ratio">
          
             <iframe
@@ -66,14 +66,17 @@ const Hero = () => {
 
         {/* CTAs */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <button
-            onClick={scrollToPortfolio}
-            className="flex items-center gap-2 px-8 py-4 rounded-full bg-primary hover:bg-glow text-white font-display font-bold text-base tracking-wider transition-all duration-300 shadow-glow hover:shadow-glow-md hover:scale-105"
-          >
-            <Play className="w-5 h-5 fill-current" />
-         Let’s Work Together 
-          </button>
-          <button
+        <button
+  onClick={() => {
+    const el = document.querySelector("#contact");
+    if (el) el.scrollIntoView({ behavior: "smooth" });
+  }}
+  className="flex items-center gap-2 px-8 py-4 rounded-full bg-primary hover:bg-glow text-white font-display font-bold text-base tracking-wider transition-all duration-300 shadow-glow hover:shadow-glow-md hover:scale-105"
+>
+  <Play className="w-5 h-5 fill-current" />
+  Let's Work Together
+</button>
+          {/* <button
             onClick={() =>
               document
                 .querySelector("#contact")
@@ -82,7 +85,7 @@ const Hero = () => {
             className="flex items-center gap-2 px-8 py-4 rounded-full border border-primary/50 text-primary hover:border-glow hover:text-glow font-display font-bold text-base tracking-wider transition-all duration-300 hover:shadow-glow"
           >
             Get in Touch
-          </button>
+          </button> */}
         </div>
       </div>
 
