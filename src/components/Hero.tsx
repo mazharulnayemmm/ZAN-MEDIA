@@ -13,7 +13,7 @@ const Hero = () => {
     <section
       id="hero"
       className="relative flex flex-col items-center justify-center overflow-hidden"
-      style={{ paddingTop: isMobile ? '4rem' : '8rem', paddingBottom: isMobile ? '0rem' : '8rem' }}
+      style={{ paddingTop: isMobile ? '4rem' : '8rem', paddingBottom: isMobile ? '1.5rem' : '8rem' }}
     >
       {/* Background image with overlay */}
       <div
