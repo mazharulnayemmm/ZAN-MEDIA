@@ -3,7 +3,7 @@ import { Tag } from "lucide-react";
 
 const CATEGORIES = {
   ALL: "All",
-  YOUTUBE: "YoutubeVideo",
+  YOUTUBE: "Youtube Video",
   REELS: "Reels",
 };
 
