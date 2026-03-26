@@ -131,7 +131,7 @@ const Portfolio = () => {
   }, []);
 
   return (
-    <section id="portfolio" ref={sectionRef} className="py-24 bg-background">
+    <section id="portfolio" ref={sectionRef} className="py-8 bg-background">
       <style>{`
         .filter-grid {
           transition: opacity 60ms ease;
