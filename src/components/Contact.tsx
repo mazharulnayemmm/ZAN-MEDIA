@@ -63,7 +63,7 @@ const Contact = () => {
           <div className="lg:col-span-2 fade-in flex flex-col gap-6">
             {/* Email */}
             <a
-              href="mailto:alex@alexedit.com"
+              href="mailto:nayemm0345@gmail.com"
               className="group flex items-center gap-4 bg-surface border border-border rounded-2xl p-5 card-hover"
             >
               <div className="w-12 h-12 rounded-xl bg-primary/10 border border-primary/30 flex items-center justify-center group-hover:bg-primary/20 group-hover:border-glow group-hover:shadow-glow transition-all duration-300">

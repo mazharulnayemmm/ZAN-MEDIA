@@ -48,7 +48,7 @@ const About = () => {
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-2xl overflow-hidden border-2 border-primary shadow-glow-lg">
                 <img
                   src={portrait}
-                  alt="Alex — Professional Video Editor"
+                  alt="ZAN MEDIA"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -91,7 +91,7 @@ const About = () => {
             </h2>
 
             <p className="font-body text-muted-foreground leading-relaxed mb-4">
-              I'm <strong className="text-foreground">Alex Rivera</strong>, a
+              I'm <strong className="text-foreground">NYM</strong>, a
               professional video editor with over 5 years of experience crafting
               compelling visual stories for brands, YouTubers, agencies, and
               independent filmmakers worldwide.
