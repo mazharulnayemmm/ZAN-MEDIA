@@ -62,7 +62,7 @@ const Contact = () => {
 
   return (
     <section id="contact" ref={sectionRef} className="py-0 bg-background">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 py-4">
         <div className="text-center mb-14 fade-in">
           <h2 className="font-display font-black text-4xl md:text-5xl text-foreground section-title">
             Ready to Grow Your Brand? Let us Talk!
