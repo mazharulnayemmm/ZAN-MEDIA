@@ -129,11 +129,11 @@ const Contact = () => {
                     id="email"
                     type="email"
                     required
-                    placeholder="nayemm0345@gmail.com"
+                    placeholder="nayemm@gmail.com"
                     value={form.email}
                     onChange={(e) => setForm({ ...form, email: e.target.value })}
                       onClick={() => {
-                          if (!form.email) setForm({ ...form, email: "nayemm0345@gmail.com" });
+                          if (!form.email) setForm({ ...form, email: "  @gmail.com" });
                         }}
                     className="w-full bg-surface-2 border border-border rounded-xl px-4 py-3 text-foreground font-body text-sm placeholder:text-muted-foreground/50 focus:outline-none focus:border-primary focus:shadow-glow transition-all duration-200"
                   />
